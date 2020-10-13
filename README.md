@@ -25,7 +25,7 @@ Para configurar este proyecto en Firebase, podemos seguir estos pasos:
 2. Crear un formulario de Google Forms para crear nuevas candidatas, con los campos descritos en el paso anterior: nombre completo, email, código postal y fecha de nacimiento
 3. Crear un zap de Zapier para conectar el formulario de Google Forms y la Cloud Function anterior, de forma que cuando se rellene el formulario se envía una petición a la Cloud Function y la información de la candidata se guarden en BBDD
 4. En la aplicación de front-end, vamos a crear una vista en la ruta `/home` ya existente donde mostraremos un listado de todas las candidatas que tenemos en BBDD. Este listado lo podremos filtrar (en cliente) mediante un input de texto permitirá buscar por nombre o email. BONUS: este listado de candidatas sólo será visible para usuarios administaradores (según las reglas en `firestore.rules`)
-5. La aplicación front-end se desplegará en Firebase hosting para tener una URL accesible
+5. Desplegar la aplicación en [Netlify](https://netlify.com/) con una URL accesible
 
 ## Entrega
 
