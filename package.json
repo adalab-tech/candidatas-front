@@ -10,17 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/profes-adalab/candidatas-front.git"
+    "url": "git+https://github.com/adalab-tech/candidatas-front.git"
   },
   "author": "",
   "license": "GNU GPL",
   "bugs": {
-    "url": "https://github.com/profes-adalab/candidatas-front/issues"
+    "url": "https://github.com/adalab-tech/candidatas-front/issues"
   },
   "homepage": "https://candidatas-front.firebaseapp.com/",
   "dependencies": {
-    "@material-ui/core": "^3.9.3",
-    "@material-ui/icons": "^3.0.2",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
     "firebase": "^6.6.1",
     "node-sass": "^4.11.0",
     "prop-types": "^15.7.2",

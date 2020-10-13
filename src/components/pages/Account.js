@@ -10,7 +10,7 @@ const AccountPage = () => (
   <AuthUserContext.Consumer>
     {authUser => (
       <div className="container">
-        <Typography variant="display1" gutterBottom align="center">
+        <Typography variant="subtitle1" gutterBottom align="center">
           Usuario: {authUser.email}
         </Typography>
         <div className="layout">

@@ -44,7 +44,7 @@ const SignInForm = ({ history }) => {
         value={email}
         onChange={event => setEmail(event.target.value)}
         type="email"
-        placeholder="ines@adalab.es"
+        placeholder="yourself@adalab.es"
       />
       <TextField
         fullWidth
