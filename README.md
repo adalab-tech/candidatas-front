@@ -27,6 +27,9 @@ Para configurar este proyecto en Firebase, podemos seguir estos pasos:
 4. En la aplicación de front-end, vamos a crear una vista en la ruta `/home` ya existente donde mostraremos un listado de todas las candidatas que tenemos en BBDD. Este listado lo podremos filtrar (en cliente) mediante un input de texto permitirá buscar por nombre o email. BONUS: este listado de candidatas sólo será visible para usuarios administaradores (según las reglas en `firestore.rules`)
 5. Desplegar la aplicación en [Netlify](https://netlify.com/) con una URL accesible
 
+### Bonus
+Demuestra tus capacidades de testing como veas oportuno
+
 ## Entrega
 
 Para evaluar la prueba necesitamos que nos compartas
@@ -63,13 +66,6 @@ Conectar al proyecto de firebase creado
 `firebase serve`
 
 ### Para desplegar
-
-Desplegar todo:
-`firebase deploy`
-
-Desplegar solo el front-end:
-`npm run build`
-`firebase deploy --only hosting`
 
 Desplegar solo las funciones:
 `firebase deploy --only functions`
