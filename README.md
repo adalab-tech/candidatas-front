@@ -28,7 +28,7 @@ Para configurar este proyecto en Firebase, podemos seguir estos pasos:
 5. Desplegar la aplicación en [Netlify](https://netlify.com/) con una URL accesible
 
 ### Bonus
-Demuestra tus capacidades de testing como veas oportuno
+Demuestra tus capacidades de testing realizando un test sencillo donde veas oportuno
 
 ## Entrega
 
